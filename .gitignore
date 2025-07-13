@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição de pacotes
+build/
+dist/
+*.egg-info/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env/
+ENV/
+.env.bak/
+env.bak/
+
+# Configurações de IDEs/editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Arquivos de credenciais e variáveis de ambiente
+*.env
+.env.*
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Arquivos do pytest e coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+
+# mypy, pyright, pylint
+.mypy_cache/
+.pyright/
+.pylint.d/
+
+# pip-tools
+requirements.txt~
